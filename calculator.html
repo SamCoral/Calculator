@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+<div class="calculator">
+
+    <input id="display" readonly>
+
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="add('%')">%</button>
+    <button onclick="squareRoot()">√</button>
+    <button onclick="square()">x²</button>
+
+    <button onclick="sin()">sin</button>
+    <button onclick="cos()">cos</button>
+    <button onclick="tan()">tan</button>
+    <button onclick="add('Math.PI')">π</button>
+
+    <button onclick="add('7')">7</button>
+    <button onclick="add('8')">8</button>
+    <button onclick="add('9')">9</button>
+    <button onclick="add('/')">÷</button>
+
+    <button onclick="add('4')">4</button>
+    <button onclick="add('5')">5</button>
+    <button onclick="add('6')">6</button>
+    <button onclick="add('*')">×</button>
+
+    <button onclick="add('1')">1</button>
+    <button onclick="add('2')">2</button>
+    <button onclick="add('3')">3</button>
+    <button onclick="add('-')">−</button>
+
+    <button onclick="add('0')">0</button>
+    <button onclick="add('.')">.</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="add('+')">+</button>
+
+</div>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>
